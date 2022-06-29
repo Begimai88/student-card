@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: #514646;
+}
+
+body {
+    background-color: #fff5f1;
+}
+ img {
+    border-radius: 15px;
+    margin-right: 20px
+ }
+ ul {
+    padding-left: 20px;
+ }
+ h2 {
+    margin-bottom: 20px;
+ }
+
+ .container {
+    max-width: 1300px;
+    padding: 20px 80px;
+    margin: 0 auto;
+ }
+
+ .row {
+    display: flex;
+    margin: 0 -15px;
+  }
+  
+  .col-6 {
+    width: 50%;
+    padding: 0 15px;
+  }
+
+  .about-me,
+ .purpose, 
+ .time, 
+ .courses,
+ .contacts {
+    margin-bottom: 15px;
+ }
+ .about-me {
+     background-color: #d8e9f7;
+ }
+ .about-me,
+ .purpose-block,
+ .time-block,
+ .courses-block, 
+ .contacts-block {
+    background-color: #e5f7ec;
+    font-size: 18px;
+   display: flex;
+  flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px 5px;
+
+ }
+ .about-me {
+    background-color: #d8e9f7;
+ }
+
+ .purpose-block, 
+ .contacts-block,
+ .courses-block {
+    position: relative;
+ }
+.purpose-block img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+ .time-block {
+    background-color: #fff2cd;
+    position: relative;
+
+ }
+ .time-block img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ }
+ .blue-color {
+    color: #00c0fb;
+ }
+ .table {
+    width: 65%;
+ }
+ .table-row {
+    text-align: center;
+ }
+ 
+.courses-block img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.contacts-block img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+ .contacts-block {
+    background-color: #ffdfc0;
+    
+ }
